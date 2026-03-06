@@ -1,0 +1,19 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="100" y1="80" x2="820" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF7EF"/>
+      <stop offset="1" stop-color="#D9EEE2"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/>
+  <rect x="120" y="120" width="660" height="660" rx="40" fill="#FFFFFF" stroke="#C2DDCE" stroke-width="4"/>
+  <circle cx="450" cy="360" r="110" fill="#E9F6EE" stroke="#8CB79A" stroke-width="6"/>
+  <rect x="434" y="286" width="32" height="148" rx="16" fill="#2E7A50"/>
+  <rect x="376" y="344" width="148" height="32" rx="16" fill="#2E7A50"/>
+  <text x="450" y="560" text-anchor="middle" fill="#245C3C" font-size="46" font-family="Poppins, Segoe UI, sans-serif" font-weight="700">
+    VARAD Healthcare
+  </text>
+  <text x="450" y="620" text-anchor="middle" fill="#4C6B58" font-size="28" font-family="Poppins, Segoe UI, sans-serif">
+    Product image coming soon
+  </text>
+</svg>

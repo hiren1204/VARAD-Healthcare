@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products | VARAD Healthcare</title>
+    <meta
+      name="description"
+      content="Browse VARAD Healthcare orthopedic and support products by category, features, benefits, and MRP."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body data-page="products">
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand">
+          <img src="images/varad-logo.png" alt="VARAD Healthcare" class="brand-logo" />
+          <span class="sr-only">VARAD Healthcare</span>
+        </a>
+
+        <button class="menu-toggle" type="button" id="menuToggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" id="mainNav">
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="index.html#contact">Contact</a>
+          <a href="#" class="btn btn-primary nav-btn js-whatsapp-link">Enquiry Now</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="sub-hero">
+        <div class="container">
+          <p class="section-eyebrow">Product Catalog</p>
+          <h1>Orthopedic & Healthcare Product Listing</h1>
+          <p>
+            Filter by category and search instantly to find the right support product for elbow,
+            shoulder, wrist, knee, ankle, back, therapy, or compression needs.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="catalog-toolbar">
+            <div class="filter-row" id="categoryFilters"></div>
+
+            <label class="search-box" for="productSearch">
+              <span>Search products</span>
+              <input
+                id="productSearch"
+                type="search"
+                placeholder="Search by name, feature, or benefit"
+              />
+            </label>
+          </div>
+
+          <p class="result-count" id="resultCount"></p>
+          <div class="product-grid" id="productsGrid"></div>
+          <div class="empty-state" id="emptyState" hidden>
+            <h3>No products found</h3>
+            <p>Try a different keyword or filter category.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <img src="images/varad-logo.png" alt="VARAD Healthcare" class="footer-logo" />
+          <p>
+            Premium orthopedic and healthcare support products designed for reliable comfort, recovery, and everyday confidence.
+          </p>
+        </div>
+
+        <div>
+          <p class="footer-title">Quick Links</p>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="footer-title">Contact</p>
+          <ul>
+            <li class="js-phone"></li>
+            <li class="js-email"></li>
+            <li class="js-address"></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p><span id="currentYear"></span> VARAD Healthcare. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <a href="#" class="whatsapp-float js-whatsapp-link" aria-label="Chat on WhatsApp">WhatsApp</a>
+
+    <script src="assets/js/products-data.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

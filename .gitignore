@@ -1,0 +1,22 @@
+node_modules
+.next
+out
+.DS_Store
+.vscode
+.env*
+.idea
+.venv
+
+# Source/extraction artifacts not needed for static deploy
+assets/source
+app
+components
+data
+lib
+public
+main.py
+next-env.d.ts
+next.config.ts
+package.json
+package-lock.json
+tsconfig.json
